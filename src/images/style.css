@@ -8,7 +8,7 @@ ul {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-
+  text-decoration: none;
   padding-inline-start: 40px;
 }
 nav li {
@@ -17,11 +17,19 @@ nav li {
   list-style: none;
   margin-left: 20px;
   margin-right: 6px;
+  font-family: 'Coming Soon', cursive;
+  text-transform: uppercase;
 }
+
+a{
+  text-decoration: none;
+  color: #E56997;
+ }
+
 footer .social-links a {
   margin: 20px;
-  color: pink;
-  background-color: gray;
+  color: #E56997;
+  background-color: rgba(128, 128, 128, 0);
   font-size: 22px;
   padding: 10px 20px;
   border-radius: 50%;
@@ -29,7 +37,7 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: gray;
-  background-color: pink;
+  background-color: #E56997;
 }
 .logo {
   padding: 30px;
