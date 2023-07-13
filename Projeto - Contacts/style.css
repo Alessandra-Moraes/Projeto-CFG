@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Halimun ;
+    src: url(Fonts/halimun/Halimun.ttf);
+}
+@font-face {
+    font-family: Donau;
+    src: url(Fonts/Donau/Commercial/TTF/DonauUppercase-Neue.ttf);
+}
+
+body{
+    background-color: #66D2D6
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 1024px; 
+    width: 724px;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image{
+    float: right;
+    padding-left: 20px
+}
+
+h1{
+    color: #FFF9ED;
+    font-family: 'Donau';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center
+}
+
+h2{
+    color: #402620;
+    font-family: 'Halimun';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+pre{
+    color: #402620;
+    font-family: 'Donau';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: none;
+    color: #402620;
+}
+
+.div2 {
+    position: relative;
+    width: 50%;
+    height: 1027px;
+    left: 0px;
+    top: -8px;
+    float: right;
+    background: #BD97CB;
+}
