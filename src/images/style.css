@@ -19,6 +19,7 @@ nav li {
   display: inline;
  margin-right: 50px;
  margin-top: 40px;
+
 }
 
 
@@ -29,6 +30,7 @@ a{
   font-family: 'Coming Soon', cursive;
   text-transform: uppercase;
   font-size: 20px;
+  justify-content: flex-end;
  }
 
  @media (max-width: 768px) {
@@ -123,8 +125,16 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 /*about page*/
 
 .head-container{
-  margin-top: -30px;
- margin-bottom: -100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #FFF;
+  z-index: 999;
 }
 
 body, html {
@@ -133,26 +143,29 @@ margin: 0;
 padding: 0;
 }
 
-.body-about{ 
-display: flex;
+.body-about{
+  background-color: #AF3557;
 }
+
 .logo-navbar{
   margin-top: 40px;
-  height: 50px;
+  height: 40px;
 }
 
 .about-page{
 background: #AF3557;
 width: 50%;
-height: 100vh;
+height:auto;
 display: flex;
 flex-direction: column;
 align-items: center;
-float: left;
-max-width: 100%;
-max-height: 100%;
-margin: 0;
-margin-bottom: 250px;
+justify-content: center;
+padding: 20px;
+box-sizing: border-box;
+margin-top: 100px;
+}
+.about-page > * {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -193,9 +206,8 @@ padding-top: 40px;
 color: #FFF9ED;
 text-align: center;
 font-family: Donau;
-font-size: 35px;
+font-size: 25px;
 text-transform: capitalize;
-margin-top: 20px;
 margin-left: 80px;
 margin-right: 80px;
 margin-bottom: 20px;
@@ -227,13 +239,14 @@ object-fit: cover;
 
 .container-photo{
 display: flex;
-justify-content: flex-end;
-align-items: flex-start;
+justify-content: flex-start;
+align-items: center;
 width: 50%;
 height: auto;
 float: right;
 margin: 0;
 background-color: #AF3557;
+transform: translateY(-185%);
 }
 
 /*footer */
