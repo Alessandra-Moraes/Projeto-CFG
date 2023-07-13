@@ -21,54 +21,30 @@
       crossorigin="anonymous"
     ></script>
     <style>
+      @font-face {
+        font-family: Halimun;
+        src: url(src/Halimun.ttf);
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: Donau;
+        src: url(src/images/Donau\ Uppercase\ Neue\ 400.otf);
+      }
+    </style>
+    <style>
       @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
     </style>
+    <script src="index.js"></script>
   </head>
-  <body>
-    <div class="container">
-      <div class="head-container">
-        <nav class="d-flex justify-content-between">
-          <img
-            src="src/images/Logo_transparente.png"
-            alt="logo"
-            class="logo d-block"
-          />
-          <ul>
-            <li class="active">
-              <a href="index.html" title="Homepage"> Home </a>
-            </li>
-            <li>
-              <a href="about.html" title="About-page"> About </a>
-            </li>
-            <li class=>
-              <a href="contact.html" title="Contact-page"> Contact </a>
-            </li>
-          </ul>
-        </nav>
-        
-      </div>
-      <div class="hero">
-      <h1>Cor e Sabor</h1>
-      <div class="row" >
-        <div class="col-sm-4">
-          <img src="src/images/brigadeiro-caixa.jpg" alt="brigadeiros box" class="img-fluid p-2 shadow rounded">
-        </div>
-        <div class="col-sm-4">
-          <img src="src/images/chocolate-egg.jpg" alt="chocolate egg" class="img-fluid p-2 shadow rounded">
-        </div>
-        <div class="col-sm-4">
-          <img src="src/images/gift.jpg" alt="chocolate gift" class="img-fluid p-2 shadow rounded">
-        </div>
-        </div>
-      </div>
-      <footer>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/coresabordoces/" target="_blank" title="Instagram Profile">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-
-        </div>
-      </footer>
-    </div>
+  <body class="body-homepage">
+    <div class="container1">
+      <img class="logo_homepage" src="src/images/logo_transparente.png" alt="Logo_transparente">
+     </div>
+     <div class="conatiner-button">
+    <button id="btnhp" class="btn-hp"> <a href="about.html">
+      <span class="text-btn">Show me</span></a>
+    </button>
+    
   </body>
 </html>
